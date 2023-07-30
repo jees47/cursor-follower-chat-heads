@@ -1,15 +1,15 @@
-import { useState } from 'react'
-import './App.css'
+import { useState } from "react";
+import "./App.css";
 import CursorFollower from "./components/CursorFollower.jsx";
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
 
   return (
-    <div className='bg-image'>
-    <CursorFollower /> 
+    <div className="bg-image">
+      <CursorFollower />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
