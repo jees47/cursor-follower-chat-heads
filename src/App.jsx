@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./App.css";
-import CursorFollower from "./components/CursorFollower.jsx";
+import CursorFollower from "./components/CursorFollower";
 
 function App() {
   const [count, setCount] = useState(0);
